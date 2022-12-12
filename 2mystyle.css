@@ -105,3 +105,41 @@ input[type=text]:focus {
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
+.feature-img{
+  width: 83%;
+  margin: auto;
+  position: relative;
+  border-radius: 6px;
+  overflow: hidden;
+}
+.small-img-row{
+  display: flex;
+  background: white;
+  margin: 20px 0;
+  align-items: center;
+  border-radius: 6px;
+  overflow: hidden;
+  width: 150%;
+}
+.small-img{
+  position: relative;
+}
+.small-img img{
+  width: 150px;
+}
+.small-img p{
+  margin-left: 20px;
+  color: white;
+  line-height: 22px;
+  font-size: 10px;
+}
+.video-player{
+  width: 250px;
+  position: absolute;
+  left: 70%;
+  top: 120%;
+  transform: translate(-50%,-50%);
+}
+video:focus{
+  outline: none;
+}
