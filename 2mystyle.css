@@ -1,5 +1,6 @@
 *{
   background-color: black;
+  color: white;
 
 }
 
@@ -104,6 +105,15 @@ input[type=text]:focus {
 
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
+}
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.col{
+  flex-basis: 50%;
+  max-width: 250px;
 }
 .feature-img{
   width: 83%;
